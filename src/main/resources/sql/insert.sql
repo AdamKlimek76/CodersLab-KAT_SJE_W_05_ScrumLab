@@ -1,3 +1,5 @@
+use scrumlab;
+
 INSERT INTO `day_name` (`id`, `name`, `display_order`) VALUES
 (1, 'poniedziałek', 1),
 (2, 'wtorek', 2),
@@ -36,3 +38,4 @@ INSERT INTO `recipe_plan` (`id`, `recipe_id`,  `meal_name`, `display_order`, `da
 (null, 2,  'Śniadanie', 1, 1, 6),
 (null, 1,  'Kolacja', 2, 1, 6),
 (null, 3,  'Śniadanie', 1, 2, 6);
+select*from admins

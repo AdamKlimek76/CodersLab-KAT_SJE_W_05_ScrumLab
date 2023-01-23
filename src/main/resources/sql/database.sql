@@ -130,3 +130,5 @@ CREATE TABLE `book` (
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 COMMENT = 'Przykładowa tabela.';
+
+drop database scrumlab;

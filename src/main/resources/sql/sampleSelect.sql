@@ -1,4 +1,6 @@
 -- SQL pobierający szczegóły posiłków w określonym planie
+use scrumlab;
+
 SELECT day_name.name as day_name, meal_name, recipe.name as recipe_name, recipe.description as recipe_description
 FROM `recipe_plan`
 JOIN day_name on day_name.id=day_name_id
